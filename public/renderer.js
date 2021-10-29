@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
       if (text) {
         try {
           const response = await backendBridge.sendData(text.value)
-          console.log(response)
+          //console.log(response)
           const img = document.querySelector('#generated-qr-code')
           if (img) {
             img.src = response

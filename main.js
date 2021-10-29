@@ -51,7 +51,7 @@ ipcMain.handle('generate-qr-code', async (event, text) => {
         reject('Error occured')
         return
       }
-      console.log(imgData)
+      //console.log(imgData)
       resolve(imgData)
     })
   })
